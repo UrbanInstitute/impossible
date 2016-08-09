@@ -1,0 +1,430 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+     border: 0px none;
+     margin: 0px;
+     padding: 0px;
+     vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+body, html {
+     color: #000;
+     font-family: "Lato",sans-serif;
+     font-size: 16px;
+     height: 100%;
+     line-height: 1.2;
+     margin: 0px;
+     padding: 0px;
+     text-align: left;
+
+}
+
+ol, ul {
+
+}
+
+blockquote, q {
+     quotes: none;
+}
+
+blockquote::before, blockquote::after, q::before, q::after {
+     content: none;
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0px;
+}
+
+*, *::before, *::after {
+     box-sizing: border-box;
+}
+
+.clearfix::after {
+     clear: both;
+     content: "";
+     display: table;
+}
+
+
+
+a{
+ color:#1696d2;
+ text-decoration: none;
+   
+}
+
+a:hover{
+ color:#000;
+ text-decoration: none;    
+    
+}
+
+p{
+    margin-bottom:10px;
+    line-height: 1.3;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.bold{
+    
+    font-weight: 700;
+}
+
+
+
+/************subnav***************/
+.subnav{
+    width: 100%;
+    position: fixed;
+    top: 50px;
+    height: 40px;
+    background-color: #eee;
+
+}
+
+
+.subnav ul{
+    text-align: center;
+    margin: 0px;
+}
+.subnav ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+    padding-left: 24px;
+    padding-top: 10px;
+    
+}
+
+/***********structure***********/
+.wrapper{
+    width:950px;
+margin:0 auto;
+padding-top:50px;
+    border-top:1px solid #eee;
+}
+
+.content{
+    width:950px;
+margin: 0 auto;
+padding-top:30px;
+
+}
+
+.content ul{
+   list-style: outside none none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.content ul li{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-left: 1%;
+
+}
+
+
+
+.text{
+    width:500px;
+    margin:35px 75px;
+}
+
+
+.left{
+    float:left;
+}
+
+.right{
+    float:right;
+}
+
+
+/********header (below urban menu)**********/
+
+
+.headerimage{
+    width:100%;
+    height:500px;
+    margin-bottom:0px;
+}
+
+#heroimage{
+   background-image: url("../img/ui-ic-banner1.jpg");
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    font-size: 70px;
+    font-weight: 500;
+    padding-top: 260px; 
+    text-align: left;
+    color:#fff;
+    
+}
+
+
+
+/*********read the research**********/
+
+#inset{
+    float:right;
+    width:200px;
+    border-left: 1px solid #999;
+    padding-left:20px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+#research{ /*this styles the title for the read the research section*/
+    font-weight: 700;
+    font-size:18px;
+    margin-bottom:5px;
+}
+
+.research{
+    text-align: left;
+    line-height: 2;
+    font-size:14px;
+}
+
+#inset ul{
+    margin-left:0px;
+      margin-bottom:0px;
+    text-indent: 0px;
+
+    
+}
+
+#inset li{
+    list-style: none;
+    padding-left:0px;
+          margin-bottom:0px;
+  
+}
+
+
+/**************quotes*******************/
+
+h2{
+ font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    line-height: 1.3;}
+
+h4{
+    color:#999;
+    font-size: 16px;
+    font-weight:400;
+}
+
+
+.hanging{
+    
+    text-indent: -15px;
+}
+
+
+/************** general text styles***************/
+
+ul{
+    text-align: left;
+     list-style-position:outside;
+    margin:15px 0px 25px 45px;
+ 
+}
+
+li{
+    margin-bottom:15px;
+    list-style:disc;
+    padding-left:10px;
+}
+
+
+
+
+/*image that goes 65% width of wrapper. */
+.overhalf{
+    width:65%;
+    margin-top:3px;
+    margin-bottom: 10px;
+    margin-right:75px;
+}
+.full{
+       width:100%;
+    margin-top:25px;
+    margin-bottom: 10px; 
+}
+
+.caption{
+  margin-bottom: 30px;
+    font-size:14px;
+    font-style:italic;
+    color:#666;
+}
+
+    
+.half{
+    width:49.5%;
+    margin-top:3px;
+    margin-bottom: 10px;
+}
+
+iframe{
+    margin-bottom:75px;
+}
+
+/*footer*/
+
+footer {
+    background-color: #f1f2f2;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    bottom: 0;
+   overflow: hidden;
+     height:auto;
+ 
+}
+
+footer .content{
+  
+    max-width: 1100px;
+
+    
+   
+    
+}
+
+footer .left-col {
+  float: left;
+  width: 45%;
+  padding-left: 0px;
+  padding-right:0px;
+   
+}
+
+footer .right-col {
+
+  float: right;
+  width: 45%;
+   padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+
+footer p {
+    font-size: 14px;
+}
+
+footer h2 {
+    text-transform: uppercase;
+     font-weight: 700;
+}
+
+footer h3, footer h4{
+   font-weight: 700; 
+}
+
+.credits {
+    font-size: 14px;
+    margin-top: 1em;
+    margin-bottom: 16px;
+}
+
+.job {
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+
+.urbanstatement {
+    font-style: italic;
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 1em;
+}
+
+
+
+/*this is the smaller screens menu option*/
+
+#mobilenavcontainer{
+    display: none;
+}
+
+.mobile{
+  display: none;
+position: relative;
+width: 100%;
+top: 65px;
+height: 40px;
+margin-left: 0px;
+margin-top: 0px;
+
+}
+.mobile div{
+    display: none;
+    top: 65px;
+position: relative;
+}
+
+.mobile button {
+position: absolute;
+top: 0px;
+right: 0px;
+border: 0;
+text-indent: 200%;
+overflow: hidden;
+background: rgba(255,255,255,0.8) url("http://i.imgur.com/vKRaKDX.png") center no-repeat;
+border: 1px solid #ddd;
+border-radius: 3px;
+background-size: 80%;
+width: 40px;
+height: 40px;
+outline: none;
+-webkit-transition: all 400ms ease;
+transition: all 400ms ease;
+}
+
+.mobile button.expanded {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  background-color: transparent;
+
+}
+.mobile a {
+  display: block;
+     background: #eee;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+
+.mobile a:hover,
+.mobile a:active,
+mobile a:focus {
+  background: #e7e7e7;
+}

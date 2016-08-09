@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.left-col {
+  float: left;
+  width: 30%;
+  padding-right: 20px;
+
+}
+
+.right-col {
+  float: right;
+  width: 70%;
+  padding-left: 90px;
+  padding-right: 70px;
+ 
+  
+}
+
+.container {
+
+    margin-bottom: 80px;
+ 
+}
+
+
+
+
+@media all and (max-width: 48em) {
+  .left-col, .right-col { float: none; width: auto; }
+}
