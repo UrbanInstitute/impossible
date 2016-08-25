@@ -85,9 +85,10 @@ h3{
 .subnav{
     width: 100%;
     position: fixed;
-    top: 50px;
+    top: 51px;
     height: 40px;
-    background-color: #eee;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #eee;
 
 }
 
@@ -106,18 +107,69 @@ h3{
     
 }
 
+
+
+
+
+
+/*****************mobile chapter (replacing the subnav for smaller screens) ******************/
+
+#mobilenavcontainer{
+    display: none;
+}
+
+
+.show-menu {
+	display: none;
+    margin-top:50px;
+
+}
+
+
+/*Style for menu links*/
+ul#menu li a {
+    display: block;
+    min-width: 140px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    height: 36px;
+    padding-top: 8px;
+}
+
+/*Hover state for top level links*/
+ul#menu li:hover a {
+  color: #0096d2;
+}
+
+/*Style for dropdown links*/
+ul#menu li:hover ul a {
+	background: #333;
+color:#fff;
+border-right-color: #222;
+    border-right:1px solid;
+    border-color: #222;
+    border-top:5px solid;
+    border-top-color:#222;
+}
+
+
+
+
+
 /***********structure***********/
 .wrapper{
     width:950px;
-margin:0 auto;
-padding-top:50px;
+    margin:0 auto;
+    padding-top: 150px;
     border-top:1px solid #eee;
 }
 
 .content{
     width:950px;
-margin: 0 auto;
-padding-top:30px;
+    margin: 0 auto;
+    padding-top:30px;
 
 }
 
@@ -159,13 +211,14 @@ padding-top:30px;
 
 
 .headerimage{
-    width:100%;
-    height:500px;
-    margin-bottom:0px;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 90px;
 }
 
 #heroimage{
-   background-image: url("../img/ui-ic-banner1.jpg");
+   background-image: url("../img/4T3A6295.jpg");
      background-size: cover;
     background-repeat: no-repeat;
 }
@@ -174,7 +227,7 @@ padding-top:30px;
 h1{
     font-size: 70px;
     font-weight: 500;
-    padding-top: 260px; 
+    padding-top: 180px; 
     text-align: left;
     color:#fff;
     
@@ -365,8 +418,84 @@ footer h3, footer h4{
 
 
 
-/*this is the smaller screens menu option*/
+@media (max-width: 1000px) {
+   
+    .subnav a{
+        font-size:14px;
+    }
+}
 
+
+
+/*browser windows smaller than 850px*/
+@media (max-width: 900px) {
+
+.subnav {
+display: none;
+}
+    
+#mobilenavcontainer {
+width: 100%;
+position: relative;
+top: 0px;
+height: 45px;
+display: block;   
+}
+    
+.show-menu{
+    display: block;
+    width: 100%;
+    position: fixed;
+    text-decoration: none;
+    color: #fff;
+    background: #0096d2;
+    text-align: center;
+    padding: 10px 0;   
+    } 
+    
+    
+/*Hide checkbox*/
+input[type=checkbox]:unchecked ~ #menu{
+display: none;
+visibility:hidden;
+
+    
+}
+
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    height: 150px;
+       z-index: 10;
+   
+}
+    
+ul#menu {
+    float:none;
+    display: none; 
+    text-align: center;
+    list-style:none;
+    margin:0px;
+}
+
+#menu li{
+    margin-bottom:0px;
+    list-style:none;
+    padding-left:0px; 
+}
+
+.headerimage{
+        top:44px;
+    }
+    
+}
+
+
+
+/*
 #mobilenavcontainer{
     display: none;
 }
