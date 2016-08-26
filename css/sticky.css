@@ -8,6 +8,7 @@
 
 }
 
+
 .right-col {
   float: right;
   width: 70%;
@@ -24,8 +25,20 @@
 }
 
 
-
-
-@media all and (max-width: 48em) {
-  .left-col, .right-col { float: none; width: auto; }
+@media  (max-width: 900px) {
+  .right-col { float: none; width: 100%; padding-left:5%; padding-right:5%;}
+  .left-col {display:none;}
+  .wrapper {width:100%; }
+  .content {width:auto;}
+  .container {width:auto; padding:0px;}
+  ul {margin-left: 15px;}
+  li {padding-left:0px;}
 }
+
+@media  (min-width: 901px) {
+  
+  .responsivequote {display:none;}
+
+}
+
+
