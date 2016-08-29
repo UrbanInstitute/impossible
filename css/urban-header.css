@@ -31,7 +31,8 @@ body{
     position: relative;
 }
 
-#header-pinned {
+#header-pinned *{
+    color:#333;
     font-weight: 300;
     text-decoration: none;
 }

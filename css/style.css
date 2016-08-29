@@ -256,8 +256,29 @@ h1{
     text-align: left;
     line-height: 2;
     font-size:14px;
+    margin-top:5px;
 }
 
+
+#inset .readButton {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+
+.readButton a{
+    color:#fff;
+    background-color: #0096d2;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:15px;
+}
+
+.readButton a:hover{
+    background-color:#000;
+  
+}
 #inset ul{
     margin-left:0px;
       margin-bottom:0px;
