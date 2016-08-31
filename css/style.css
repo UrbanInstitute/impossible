@@ -335,7 +335,7 @@ li{
 
 /*image that goes 65% width of wrapper. */
 .overhalf{
-    width:65%;
+    width:60%;
     margin-top:3px;
     margin-bottom: 10px;
     margin-right:75px;
@@ -456,7 +456,7 @@ footer h3, footer h4{
   .container {width:auto; padding:0px 30px; margin-bottom: 40px;}
   ul {margin-left: 15px;}
   li {padding-left:0px;}
-    .overhalf{margin-right:0px; margin-left:30px;}
+    .overhalf{margin-right:0px; margin-left:30px; width:70%;}
     
 .subnav {
 display: none;
